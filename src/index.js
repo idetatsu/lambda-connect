@@ -38,6 +38,8 @@ export class LambdaConnect {
 
 }
 
+export {RequestError};
+
 export default function getHandler (/* arguments */) {
     const lambdaConnect = new LambdaConnect(...arguments);
     const handler = ::lambdaConnect.handler;
