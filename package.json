@@ -1,6 +1,6 @@
 {
   "name": "lambda-connect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Middleware layer for aws lambda / api-gateway",
   "main": "lib/index.js",
   "repository": {
